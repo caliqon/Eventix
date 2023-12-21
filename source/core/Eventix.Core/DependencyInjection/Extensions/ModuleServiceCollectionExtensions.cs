@@ -2,7 +2,6 @@
 using Eventix.DependencyInjection.Models;
 using Eventix.DependencyInjection.Modules;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -18,7 +17,7 @@ public static class ModuleServiceCollectionExtensions
         var appHostBuilder = new DefaultAppHostBuilder(builder, logger);
 
         configureDelegate(appHostBuilder);
-
+        
         return builder;
     }
 

@@ -1,0 +1,18 @@
+﻿services:
+  cosmosdb:
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    ports:
+      - "8081:8081"
+      - "8900:8900"
+      - "8901:8901"
+    volumes:
+      - data:/data
+      - metadata:/metadata
+    environment:
+      - AZURE_COSMOS_EMULATOR_PARTITION_COUNT=20
+      - AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true
+      - AZURE_COSMOS_EMULATOR_IP_ADDRESS_OVERRIDE=0.0.0.0
+
+volumes:
+  data:
+  metadata:

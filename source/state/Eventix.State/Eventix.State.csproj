@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\core\Eventix.Abstractions\Eventix.Abstractions.csproj" />
+      <ProjectReference Include="..\..\core\Eventix.Core\Eventix.Core.csproj" />
+      <ProjectReference Include="..\Eventix.State.Abstractions\Eventix.State.Abstractions.csproj" />
+      <ProjectReference Include="..\Eventix.State.Core\Eventix.State.Core.csproj" />
+    </ItemGroup>
+
+</Project>

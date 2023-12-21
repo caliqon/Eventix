@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <InvariantGlobalization>true</InvariantGlobalization>
+        <UserSecretsId>9a7a019c-66cf-4bda-974e-cbea7d28618a</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +19,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\core\Eventix.Core\Eventix.Core.csproj" />
+      <ProjectReference Include="..\state\Eventix.State.Providers.CosmosDb\Eventix.State.Providers.CosmosDb.csproj" />
+      <ProjectReference Include="..\state\Eventix.State\Eventix.State.csproj" />
     </ItemGroup>
 
 </Project>
