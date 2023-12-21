@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{9AC72A78-7601-4502-85F6-F8674EAB3A3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91916B77-A7F0-4B43-95CB-72D1A86166A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{847D6DA1-507D-4CB6-A4AC-A75FC7A565A4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{B311C4DA-DD2B-46C6-AACC-A78793CFCD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.Abstractions", "source\core\Eventix.Abstractions\Eventix.Abstractions.csproj", "{6C1C2C73-65C6-4307-A92A-917FE8287DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.Core", "source\core\Eventix.Core\Eventix.Core.csproj", "{C5B84028-119F-4164-85DF-D4A162D64908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "encryption", "encryption", "{7A4B650F-D4C3-4BC6-AFDC-761616980D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.Encryption.Abstractions", "source\encryption\Eventix.Encryption.Abstractions\Eventix.Encryption.Abstractions.csproj", "{3C002783-F2A7-4517-A2EE-14B18EDA5D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.Encryption", "source\encryption\Eventix.Encryption\Eventix.Encryption.csproj", "{12123ED8-59BD-4413-9447-F9C9929C4CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "encryption", "encryption", "{73ABD923-449C-4990-B25F-56B1293C39BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.UnitTests", "tests\Eventix.UnitTests\Eventix.UnitTests.csproj", "{45C63632-DBFE-481B-B225-35CCAA7DB2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventix.Encryption.UnitTests", "tests\encryption\Eventix.Encryption.UnitTests\Eventix.Encryption.UnitTests.csproj", "{94F2703B-AA80-44E7-AA07-8B1852B4A922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B311C4DA-DD2B-46C6-AACC-A78793CFCD92} = {9AC72A78-7601-4502-85F6-F8674EAB3A3E}
+		{6C1C2C73-65C6-4307-A92A-917FE8287DD5} = {B311C4DA-DD2B-46C6-AACC-A78793CFCD92}
+		{C5B84028-119F-4164-85DF-D4A162D64908} = {B311C4DA-DD2B-46C6-AACC-A78793CFCD92}
+		{7A4B650F-D4C3-4BC6-AFDC-761616980D25} = {9AC72A78-7601-4502-85F6-F8674EAB3A3E}
+		{3C002783-F2A7-4517-A2EE-14B18EDA5D8F} = {7A4B650F-D4C3-4BC6-AFDC-761616980D25}
+		{12123ED8-59BD-4413-9447-F9C9929C4CBA} = {7A4B650F-D4C3-4BC6-AFDC-761616980D25}
+		{73ABD923-449C-4990-B25F-56B1293C39BE} = {91916B77-A7F0-4B43-95CB-72D1A86166A6}
+		{45C63632-DBFE-481B-B225-35CCAA7DB2A9} = {91916B77-A7F0-4B43-95CB-72D1A86166A6}
+		{94F2703B-AA80-44E7-AA07-8B1852B4A922} = {73ABD923-449C-4990-B25F-56B1293C39BE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1C2C73-65C6-4307-A92A-917FE8287DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1C2C73-65C6-4307-A92A-917FE8287DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1C2C73-65C6-4307-A92A-917FE8287DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1C2C73-65C6-4307-A92A-917FE8287DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B84028-119F-4164-85DF-D4A162D64908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B84028-119F-4164-85DF-D4A162D64908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B84028-119F-4164-85DF-D4A162D64908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B84028-119F-4164-85DF-D4A162D64908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C002783-F2A7-4517-A2EE-14B18EDA5D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C002783-F2A7-4517-A2EE-14B18EDA5D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C002783-F2A7-4517-A2EE-14B18EDA5D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C002783-F2A7-4517-A2EE-14B18EDA5D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12123ED8-59BD-4413-9447-F9C9929C4CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12123ED8-59BD-4413-9447-F9C9929C4CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12123ED8-59BD-4413-9447-F9C9929C4CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12123ED8-59BD-4413-9447-F9C9929C4CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C63632-DBFE-481B-B225-35CCAA7DB2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C63632-DBFE-481B-B225-35CCAA7DB2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C63632-DBFE-481B-B225-35CCAA7DB2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C63632-DBFE-481B-B225-35CCAA7DB2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F2703B-AA80-44E7-AA07-8B1852B4A922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F2703B-AA80-44E7-AA07-8B1852B4A922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F2703B-AA80-44E7-AA07-8B1852B4A922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F2703B-AA80-44E7-AA07-8B1852B4A922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
